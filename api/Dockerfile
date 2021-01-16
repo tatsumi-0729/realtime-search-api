@@ -11,9 +11,8 @@ RUN wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/s
 
 RUN yarn install \
   && npm install \
-  && npm install express --save \
-  && npm install cors --save \
-  && npm install body-parser --save \
-  && npm install googleapis --save \
-  && npm install dotenv --save \
-  && yarn add dotenv
+  && npm install express \
+  && npm install cors \
+  && npm install body-parser \
+  && npm install googleapis \
+  && npm install dotenv
