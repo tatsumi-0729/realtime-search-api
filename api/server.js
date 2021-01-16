@@ -18,7 +18,7 @@ app.get("/", function (req, res) {
   res.status(200).send("req.body");
 });
 
-app.post("/hoge", async function (req, res) {
+app.post("/search", async function (req, res) {
   const keyword = req.body.key;
   if (!keyword) return;
 
