@@ -28,8 +28,8 @@ app.post("/search", async function (req, res) {
     q: keyword,
   });
 
-  console.log(result.data.items[0]);
-  res.status(200).send(result.data.items[0]);
+  // console.log(result.data.items);
+  res.status(200).send(result.data.items);
 });
 
 app.listen(8080);
